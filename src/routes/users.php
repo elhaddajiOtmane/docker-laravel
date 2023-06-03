@@ -11,6 +11,6 @@ use App\Http\Controllers\ConstomerController;
  *     email="
  *  )
  *
- */Route::get('.users','ConstomerController@index')->name('user.index');
-
+ */
+ Route::get('/users', [ConstomerController::class, 'index'])->name('constomer.index');
 
