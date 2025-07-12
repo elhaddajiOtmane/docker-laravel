@@ -1,4 +1,4 @@
-FROM nginx:1.26.1
+FROM nginx:1.29.0
 
 WORKDIR /workspace
 
